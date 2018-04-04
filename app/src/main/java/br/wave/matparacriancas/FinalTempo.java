@@ -2,6 +2,7 @@ package br.wave.matparacriancas;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -22,6 +23,8 @@ public class FinalTempo extends Activity {
         setContentView(R.layout.activity_final_tempo);
 
         txtResultado = (TextView) findViewById(R.id.txtResultado);
+        Typeface typeface = Typeface.createFromAsset(getAssets(),"fonts/MyriadProBold");
+        txtResultado.setTypeface(typeface);
 
         /*Typeface font = Typeface.createFromAsset(getAssets(), "fonts/myriad_pro_bold.ttf");
         txtResultado.setTypeface(font);*/
@@ -43,6 +46,7 @@ public class FinalTempo extends Activity {
         tipo = rec.getIntExtra("tipo", 2);
 
         txtResultado.setText(String.valueOf(resultado) + " pontos");
+
 
         btnRepetir = (Button) findViewById(R.id.btnRepetir);
         btnFinalizar = (Button) findViewById(R.id.btnFinalizar);

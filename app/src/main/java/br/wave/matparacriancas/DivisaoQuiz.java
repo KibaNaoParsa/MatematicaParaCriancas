@@ -2,6 +2,7 @@ package br.wave.matparacriancas;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.view.View;
@@ -56,6 +57,13 @@ public class DivisaoQuiz extends Activity {
         txtC = (TextView) findViewById(R.id.txtC);
         txtD = (TextView) findViewById(R.id.txtD);
         txtPergunta = (TextView) findViewById(R.id.txtPergunta);
+
+        Typeface typeface = Typeface.createFromAsset(getAssets(), "fonts/myriad_pro_bold.ttf");
+        txtA.setTypeface(typeface);
+        txtB.setTypeface(typeface);
+        txtC.setTypeface(typeface);
+        txtD.setTypeface(typeface);
+        txtPergunta.setTypeface(typeface);
 
         /*Typeface typeface = Typeface.createFromAsset(getAssets(), "fonts/myriad_pro_bold.ttf");
         txtA.setTypeface(typeface);

@@ -1,6 +1,7 @@
 package br.wave.matparacriancas;
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -37,6 +38,11 @@ public class SomaNormal extends Activity {
         imgPergunta = (TextView) findViewById(R.id.imgPergunta);
         edtResposta = (EditText) findViewById(R.id.modoZenText);
         btnResponder = (Button) findViewById(R.id.btnResponder);
+
+        Typeface typeface = Typeface.createFromAsset(getAssets(), "fonts/myriad_pro_bold.ttf");
+        imgPergunta.setTypeface(typeface);
+        edtResposta.setTypeface(typeface);
+        btnResponder.setTypeface(typeface);
 
         it = new Intent(this, SomaNormal.class);
         continuar = new Intent(this, FinalNormal.class);

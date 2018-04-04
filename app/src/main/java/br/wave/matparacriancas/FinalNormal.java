@@ -2,6 +2,7 @@ package br.wave.matparacriancas;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -24,6 +25,10 @@ public class FinalNormal extends Activity {
         btnRefazer = (Button) findViewById(R.id.btnRepetir);
         btnFim = (Button) findViewById(R.id.btnFinalizar);
         txtResultado = (TextView) findViewById(R.id.txtResultado);
+
+        Typeface typeface = Typeface.createFromAsset(getAssets(),"fonts/MyriadProBold");
+        txtResultado.setTypeface(typeface);
+
 
         vSoma = new Intent(this, SomaNormal.class);
         vSub = new Intent(this, SubtracaoNormal.class);
