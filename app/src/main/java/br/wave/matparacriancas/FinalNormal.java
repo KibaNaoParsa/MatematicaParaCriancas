@@ -26,7 +26,7 @@ public class FinalNormal extends Activity {
         btnFim = (Button) findViewById(R.id.btnFinalizar);
         txtResultado = (TextView) findViewById(R.id.txtResultado);
 
-        Typeface typeface = Typeface.createFromAsset(getAssets(),"fonts/MyriadProBold");
+        Typeface typeface = Typeface.createFromAsset(getAssets(),"fonts/myriad_pro_bold.ttf");
         txtResultado.setTypeface(typeface);
 
 

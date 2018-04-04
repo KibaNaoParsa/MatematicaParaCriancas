@@ -1,4 +1,4 @@
-# Patch Notes v1.1
+# Patch Notes v1.2
 
 **v1.0**
 
@@ -8,3 +8,8 @@
 **v1.1**
 
 - Modo quiz completo
+
+**v1.3**
+
+- Instalação das fontes
+- Correção de bugs

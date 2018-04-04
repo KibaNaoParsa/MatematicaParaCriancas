@@ -23,7 +23,7 @@ public class FinalTempo extends Activity {
         setContentView(R.layout.activity_final_tempo);
 
         txtResultado = (TextView) findViewById(R.id.txtResultado);
-        Typeface typeface = Typeface.createFromAsset(getAssets(),"fonts/MyriadProBold");
+        Typeface typeface = Typeface.createFromAsset(getAssets(),"fonts/myriad_pro_bold.ttf");
         txtResultado.setTypeface(typeface);
 
         /*Typeface font = Typeface.createFromAsset(getAssets(), "fonts/myriad_pro_bold.ttf");

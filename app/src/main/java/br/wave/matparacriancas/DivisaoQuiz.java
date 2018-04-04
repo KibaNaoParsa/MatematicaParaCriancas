@@ -65,14 +65,6 @@ public class DivisaoQuiz extends Activity {
         txtD.setTypeface(typeface);
         txtPergunta.setTypeface(typeface);
 
-        /*Typeface typeface = Typeface.createFromAsset(getAssets(), "fonts/myriad_pro_bold.ttf");
-        txtA.setTypeface(typeface);
-        txtB.setTypeface(typeface);
-        txtC.setTypeface(typeface);
-        txtD.setTypeface(typeface);
-        txtPergunta.setTypeface(typeface);
-*/
-
         rand = new Random();
 
         do {
@@ -127,14 +119,14 @@ public class DivisaoQuiz extends Activity {
             numero = resultado - 2;
 
             if (numero < 0)
-                numero = 2;
+                numero = 3;
 
             txtA.setText(String.valueOf(numero));
 
             numero = resultado - 1;
 
             if (numero < 0)
-                numero = 3;
+                numero = 2;
 
             txtB.setText(String.valueOf(numero));
 
@@ -150,7 +142,7 @@ public class DivisaoQuiz extends Activity {
             numero = resultado - 3;
 
             if (numero < 0)
-                numero = 1;
+                numero = 3;
 
             txtA.setText(String.valueOf(numero));
 
@@ -164,7 +156,7 @@ public class DivisaoQuiz extends Activity {
             numero = resultado - 1;
 
             if (numero < 0)
-                numero = 3;
+                numero = 1;
 
             txtC.setText(String.valueOf(numero));
 
