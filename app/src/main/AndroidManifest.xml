@@ -9,26 +9,27 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Telainicial">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity" android:windowSoftInputMode="adjustPan" android:screenOrientation="portrait"/>
+        <activity android:name=".Soma" android:windowSoftInputMode="adjustPan" android:screenOrientation="portrait" />
+        <activity android:name=".Subtracao" android:windowSoftInputMode="adjustPan" android:screenOrientation="portrait" />
+        <activity android:name=".Multiplicacao" android:windowSoftInputMode="adjustPan" android:screenOrientation="portrait" />
+        <activity android:name=".Divisao" android:windowSoftInputMode="adjustPan" android:screenOrientation="portrait"/>
+        <activity android:name=".SomaNormal" android:windowSoftInputMode="adjustPan" android:screenOrientation="portrait"/>
+        <activity android:name=".SubtracaoNormal" android:windowSoftInputMode="adjustPan" android:screenOrientation="portrait"/>
+        <activity android:name=".DivisaoNormal" android:windowSoftInputMode="adjustPan" android:screenOrientation="portrait"/>
+        <activity android:name=".DivisaoQuiz" android:windowSoftInputMode="adjustPan" android:screenOrientation="portrait"/>
+        <activity android:name=".ModoQuizMult" android:windowSoftInputMode="adjustPan" android:screenOrientation="portrait"/>
+        <activity android:name=".ModoNormalMult" android:windowSoftInputMode="adjustPan" android:screenOrientation="portrait"/>
+        <activity android:name=".FinalTempo" android:windowSoftInputMode="adjustPan" android:screenOrientation="portrait"/>
+        <activity android:name=".FinalNormal" android:windowSoftInputMode="adjustPan" android:screenOrientation="portrait"/>
 
-        <activity android:name=".Soma" />
-        <activity android:name=".Subtracao" />
-        <activity android:name=".Multiplicacao" />
-        <activity android:name=".Divisao" />
-        <activity android:name=".SomaNormal" />
-        <activity android:name=".SubtracaoNormal" />
-        <activity android:name=".DivisaoNormal" />
-        <activity android:name=".DivisaoQuiz" />
-        <activity android:name=".ModoQuizMult" />
-        <activity android:name=".ModoNormalMult" />
-        <activity android:name=".FinalTempo" />
-        <activity android:name=".FinalNormal"></activity>
     </application>
 
 </manifest>
