@@ -389,6 +389,15 @@ public class DivisaoQuiz extends Activity {
         }.start();
 
     }
+    @Override
+    public void onStop() {
+
+        if(!this.isFinishing())
+        contador.cancel();
+
+        super.onStop();
+
+    }
 
     @Override
     public void onBackPressed() {

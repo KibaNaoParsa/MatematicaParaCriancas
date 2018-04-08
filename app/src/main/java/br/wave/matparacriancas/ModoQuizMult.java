@@ -390,6 +390,17 @@ public class ModoQuizMult extends Activity {
     }
 
     @Override
+    public void onStop() {
+
+        if(!this.isFinishing())
+            contador.cancel();
+
+        super.onStop();
+
+    }
+
+
+    @Override
     public void onBackPressed() {
         contador.cancel();
         Intent it1 = new Intent(this, MainActivity.class);
