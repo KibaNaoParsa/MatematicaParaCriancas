@@ -8,7 +8,7 @@
     <style name="MyEditTextTheme">
         <item type="attr" name="colorControlNormal">#FFA500</item>
         <item type="attr" name="colorControlActivated">#FF8C00</item>
-        <item type="attr" name="colorControlHighlight">@color/colorPrimaryDark</item>
+        <item type="attr" name="colorControlHighlight">@attr/colorPrimaryDark</item>
     </style>
 
 </resources>

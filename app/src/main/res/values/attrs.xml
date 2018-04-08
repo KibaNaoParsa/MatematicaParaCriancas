@@ -22,6 +22,7 @@
         <attr name="colorControlNormal" format="color|reference" />
         <attr name="colorControlActivated" format="color|reference" />
         <attr name="colorControlHighlight" format="color|reference" />
+        <attr name="colorPrimaryDark" format="color|reference" />
 
     </declare-styleable>
 

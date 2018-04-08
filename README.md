@@ -1,4 +1,4 @@
-# Patch Notes v1.2
+# Patch Notes v1.4
 
 **v1.0**
 
@@ -13,3 +13,7 @@
 
 - Instalação das fontes
 - Correção de bugs
+
+**v1.4**
+
+**- POSTADO**
