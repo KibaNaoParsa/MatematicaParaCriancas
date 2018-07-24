@@ -8,6 +8,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
+
 public class FinalTempo extends Activity {
 
     TextView txtResultado;
@@ -15,12 +18,16 @@ public class FinalTempo extends Activity {
     int resultado, tipo;
     Button btnRepetir, btnFinalizar;
     Intent fim, vDiv, vMult;
-    //InterstitialAd mInterstitialAd;
+    InterstitialAd mInterstitialAd;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_final_tempo);
+
+        mInterstitialAd = new InterstitialAd(this);
+        mInterstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
+        mInterstitialAd.loadAd(new AdRequest.Builder().build());
 
         txtResultado = (TextView) findViewById(R.id.txtResultado);
         Typeface typeface = Typeface.createFromAsset(getAssets(),"fonts/myriad_pro_bold.ttf");
@@ -28,12 +35,6 @@ public class FinalTempo extends Activity {
 
         /*Typeface font = Typeface.createFromAsset(getAssets(), "fonts/myriad_pro_bold.ttf");
         txtResultado.setTypeface(font);*/
-
-        /*
-        mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
-        mInterstitialAd.loadAd(new AdRequest.Builder().build());
-        */
 
         rec = getIntent();
 
@@ -55,7 +56,11 @@ public class FinalTempo extends Activity {
             @Override
             public void onClick(View view) {
 
-               if (tipo == 0)
+                if (mInterstitialAd.isLoaded()) {
+                    mInterstitialAd.show();
+                }
+
+                if (tipo == 0)
                    startActivity(vDiv);
                if (tipo == 1)
                    startActivity(vMult);
@@ -67,6 +72,9 @@ public class FinalTempo extends Activity {
             @Override
             public void onClick(View view) {
 
+                if (mInterstitialAd.isLoaded()) {
+                    mInterstitialAd.show();
+                }
 
                 startActivity(fim);
 

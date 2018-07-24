@@ -34,7 +34,7 @@
     <EditText
         android:id="@+id/modoZenText"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="150dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
@@ -46,12 +46,11 @@
         android:textColor="@color/colorPrimary"
         android:textSize="55sp"
         android:theme="@style/MyEditTextTheme"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/adView5"
         app:layout_constraintEnd_toStartOf="@+id/btnResponder"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView15"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView15" />
 
     <TextView
         android:id="@+id/imgPergunta"
@@ -80,10 +79,10 @@
         android:layout_marginEnd="16dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/responder"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/adView5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView15"
-        app:layout_constraintVertical_bias="0.402" />
+        app:layout_constraintVertical_bias="0.54" />
 
     <ImageView
         android:id="@+id/imageView27"
@@ -100,4 +99,18 @@
         app:layout_constraintStart_toStartOf="@+id/modoZenText"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.732" />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView5"
+        android:layout_width="321dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </android.support.constraint.ConstraintLayout>

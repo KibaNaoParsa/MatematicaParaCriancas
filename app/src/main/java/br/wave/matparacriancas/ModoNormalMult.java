@@ -10,6 +10,9 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 import java.util.Random;
 
 public class ModoNormalMult extends Activity {
@@ -23,11 +26,16 @@ public class ModoNormalMult extends Activity {
     int acertos, perguntas;
     Bundle info;
     Intent it, continuar, voltar;
+    private AdView mAdView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_normal);
+
+        mAdView = findViewById(R.id.adView5);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
 
         voltar = getIntent();
 
