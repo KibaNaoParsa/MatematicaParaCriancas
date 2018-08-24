@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/elyas/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/8ff3323fd1be667a5ac51c39deeab75f/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ff9f9e9d4812d6a9a7132ebda8bad77797387abb">
+        <dex dex="/var/www/html/MatematicaParaCriancas/app/build/intermediates/transforms/preDex/release/5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/elyas/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/43f3a4cf9bbf9acdbfe86eb0c3ebe264/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="/var/www/html/MatematicaParaCriancas/app/build/intermediates/transforms/preDex/release/15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/elyas/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/246f049978bcc462fac0595c15f3520f/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="/var/www/html/MatematicaParaCriancas/app/build/intermediates/transforms/preDex/release/14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/elyas/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/c28cf5fc2ef7a6ad07a2c0e33e7bb536/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="/var/www/html/MatematicaParaCriancas/app/build/intermediates/transforms/preDex/release/12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/elyas/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="/var/www/html/MatematicaParaCriancas/app/build/intermediates/transforms/preDex/release/18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/elyas/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/fbe3da8bb065dbd9930a4422a6d6fb92/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e6fff1d276738bb82cfc131c49d2e72a47dfd0aa">
+        <dex dex="/var/www/html/MatematicaParaCriancas/app/build/intermediates/transforms/preDex/release/4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/elyas/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.1.0/814258103cf26a15fcc26ecce35f5b7d24b73f8/support-annotations-26.1.0.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="/var/www/html/MatematicaParaCriancas/app/build/intermediates/transforms/preDex/release/16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/elyas/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/d09238f5489f696425f9d2ef9204e8f1/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="/var/www/html/MatematicaParaCriancas/app/build/intermediates/transforms/preDex/release/11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/elyas/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/40fefe78933e14dd1bbcfff976bfea4a/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="/var/www/html/MatematicaParaCriancas/app/build/intermediates/transforms/preDex/release/13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/elyas/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.1.aar/5bf063ead1d9323ad23890f13d839f06/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ad50ad7e41dff89974582cd87e2543b8eb15f760">
+        <dex dex="/var/www/html/MatematicaParaCriancas/app/build/intermediates/transforms/preDex/release/2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/elyas/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/d86bd940441c8a0a16e9fb4c6813b11c/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/var/www/html/MatematicaParaCriancas/app/build/intermediates/transforms/preDex/release/10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/elyas/.gradle/caches/transforms-1/files-1.1/play-services-gass-15.0.1.aar/f9970e92dff7872b7da14430d0c35aa1/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="37028eeb32233dad5092a550b7d32e22393515d1">
+        <dex dex="/var/www/html/MatematicaParaCriancas/app/build/intermediates/transforms/preDex/release/6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/elyas/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/cc478db3d12b9fe4bf96d8fc13b54fc6/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="/var/www/html/MatematicaParaCriancas/app/build/intermediates/transforms/preDex/release/17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/elyas/.gradle/caches/transforms-1/files-1.1/play-services-ads-base-15.0.1.aar/5bfa4620c01de30e4e77df11562a8be3/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1efcd359c3e2009ea2398af967f56210599fb652">
+        <dex dex="/var/www/html/MatematicaParaCriancas/app/build/intermediates/transforms/preDex/release/7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/elyas/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/28faf67d8af34a18028326f4036d9b5d/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="63413895dce50f6123807d1db2274a1982a34194">
+        <dex dex="/var/www/html/MatematicaParaCriancas/app/build/intermediates/transforms/preDex/release/8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/elyas/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/0ddb22ac7d44b01ef37ea920d5e30e20/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d8fe6d91310b54734f454dd490c3c869f6290576">
+        <dex dex="/var/www/html/MatematicaParaCriancas/app/build/intermediates/transforms/preDex/release/9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/elyas/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="/var/www/html/MatematicaParaCriancas/app/build/intermediates/transforms/preDex/release/19.jar" />
+    </item>
+
+</items>

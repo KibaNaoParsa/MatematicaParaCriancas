@@ -27,7 +27,7 @@ public class FinalNormal extends Activity {
         setContentView(R.layout.activity_final_normal);
 
         mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
+        mInterstitialAd.setAdUnitId("ca-app-pub-1594606495855009/6964932019");
         mInterstitialAd.loadAd(new AdRequest.Builder().build());
 
         btnRefazer = (Button) findViewById(R.id.btnRepetir);
