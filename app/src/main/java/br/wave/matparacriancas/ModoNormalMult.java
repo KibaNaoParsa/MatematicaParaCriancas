@@ -12,6 +12,7 @@ import android.widget.Toast;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 
 import java.util.Random;
 
@@ -27,20 +28,21 @@ public class ModoNormalMult extends Activity {
     Bundle info;
     Intent it, continuar, voltar;
     private AdView mAdView;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_normal);
 
-        mAdView = findViewById(R.id.adView5);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
-
         voltar = getIntent();
 
         perguntas = voltar.getIntExtra("perguntas", 0);
         acertos = voltar.getIntExtra("acertos", 0);
+        MobileAds.initialize(this,
+                "ca-app-pub-1594606495855009~4913483748");
+
+        mAdView = findViewById(R.id.adView2);
+        AdRequest adRequest = new AdRequest.Builder().addTestDevice(AdRequest.DEVICE_ID_EMULATOR).build();
+        mAdView.loadAd(adRequest);
 
         info = new Bundle();
 

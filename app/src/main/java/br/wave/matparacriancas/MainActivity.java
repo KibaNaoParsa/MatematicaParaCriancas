@@ -7,10 +7,6 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-
-import com.google.android.gms.ads.MobileAds;
-
-
 public class MainActivity extends Activity {
 
     Button btnFace, btnEstrela;
@@ -19,8 +15,6 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        MobileAds.initialize(this, "ca-app-pub-1594606495855009~4913483748");
 
         btnFace = (Button) findViewById(R.id.btnFace);
         btnEstrela = (Button) findViewById(R.id.btnEstrela);

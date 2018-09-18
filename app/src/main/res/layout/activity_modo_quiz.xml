@@ -58,7 +58,7 @@
         android:layout_marginStart="28dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/editquiz"
-        app:layout_constraintBottom_toTopOf="@+id/adView"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/resA"
         app:layout_constraintVertical_bias="0.396" />
@@ -72,7 +72,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/editquiz"
-        app:layout_constraintBottom_toTopOf="@+id/adView"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.432"
         app:layout_constraintStart_toEndOf="@+id/resC"
@@ -158,20 +158,6 @@
         app:layout_constraintEnd_toEndOf="@+id/resD"
         app:layout_constraintStart_toStartOf="@+id/resD"
         app:layout_constraintTop_toTopOf="@+id/resD" />
-
-    <com.google.android.gms.ads.AdView
-        xmlns:ads="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/adView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-1594606495855009/6034993729"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
 
 
 </android.support.constraint.ConstraintLayout>

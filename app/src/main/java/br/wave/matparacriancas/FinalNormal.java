@@ -9,9 +9,6 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.InterstitialAd;
-
 public class FinalNormal extends Activity {
 
     TextView txtResultado;
@@ -19,16 +16,11 @@ public class FinalNormal extends Activity {
     int perguntas, acertos, tipo;
     String resultado;
     Button btnRefazer, btnFim;
-    InterstitialAd mInterstitialAd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_final_normal);
-
-        mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId("ca-app-pub-1594606495855009/6964932019");
-        mInterstitialAd.loadAd(new AdRequest.Builder().build());
 
         btnRefazer = (Button) findViewById(R.id.btnRepetir);
         btnFim = (Button) findViewById(R.id.btnFinalizar);
@@ -58,10 +50,6 @@ public class FinalNormal extends Activity {
             @Override
             public void onClick(View view) {
 
-                if (mInterstitialAd.isLoaded()) {
-                    mInterstitialAd.show();
-                }
-
                 if (tipo == 0) {
                     startActivity(vSoma);
                 }
@@ -82,11 +70,6 @@ public class FinalNormal extends Activity {
         btnFim.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                if (mInterstitialAd.isLoaded()) {
-                    mInterstitialAd.show();
-                }
-
                 startActivity(fim);
             }
         });
